@@ -2,12 +2,6 @@ function start() {
   var buttonCalculateImc = document.querySelector('#button-calculate-imc'); //1º capturar o botao
   buttonCalculateImc.addEventListener('click', handleButtonClick); //2º criar o evento para o botao quando for clicado e o que vai acontecer depois
 
-  var inputWeight = document.querySelector('#input-weight'); //1ºcapturar o input do peso
-  var inputHeight = document.querySelector('#input-height'); //1º captura o input da altura
-
-  inputWeight.addEventListener('input', handleButtonClick); //2º criar um evento para o input do peso
-  inputHeight.addEventListener('input', handleButtonClick); //2º criar um evento para o input da altura
-
   handleButtonClick(); //para ja começar calculando o imc
 }
 
